@@ -2,11 +2,11 @@
 
 
 # Exercise 2
-def your_name(name):
+def greeting(name):
     print('Hello', name)
 
 
-your_name(input('Enter your name: '))
+greeting(input('Enter your name: '))
 
 
 # Exercise 3
