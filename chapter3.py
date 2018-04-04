@@ -1,6 +1,5 @@
 # Chapter 3 Exercises
 
-
 # Exercise 1
 hours = ???
 rate = ???
