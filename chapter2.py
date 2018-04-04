@@ -7,10 +7,10 @@ print('Hello', name)
 
 
 # Exercise 3
-hours = input('Enter Hours: ')
-rate = input('Enter Rate: ')
+hours = float(input('Enter Hours: '))
+rate = float(input('Enter Rate: '))
 
-print('Pay: ', float(hours)*float(rate))
+print('Pay: ', hours*rate)
 
 
 # Exercise 4
@@ -25,9 +25,9 @@ print(1 + 2 * 5)  # 11
 
 
 # Exercise 5
-celsius = input('Enter the temp in celsius: ')
+celsius = float(input('Enter the temp in celsius: '))
 
-print('Fahrenheit: ', float(celsius) * 1.8 + 32.0)
+print('Fahrenheit: ', celsius * 1.8 + 32.0)
 
 
 
