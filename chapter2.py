@@ -2,19 +2,15 @@
 
 
 # Exercise 2
-def greeting(name):
-    print('Hello', name)
-
-
-greeting(input('Enter your name: '))
+name = input('Enter your name: ')
+print('Hello', name)
 
 
 # Exercise 3
-def your_pay(hours, rate):
-    print('Pay: ', float(hours) * float(rate))
+hours = float(input('Enter Hours: '))
+rate = float(input('Enter Rate: '))
 
-
-your_pay(input('Enter Hours: '), input('Enter Rate: '))
+print('Pay: ', hours*rate)
 
 
 # Exercise 4
@@ -29,11 +25,12 @@ print(1 + 2 * 5)  # 11
 
 
 # Exercise 5
-def cel_fahr(celsius):
-    print('Fahrenheit: ', float(celsius) * 1.8 + 32.0)
+celsius = float(input('Enter the temp in celsius: '))
+
+print('Fahrenheit: ', celsius * 1.8 + 32.0)
 
 
-cel_fahr(input('Enter the temp in celsius: '))
+
 
 
 
