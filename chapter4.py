@@ -10,7 +10,6 @@
 # Exercise 6
 ERROR_NON_NUMERIC = 'Please enter a numerical value.'
 
-
 def num_checker(num_to_check):
     try:
         float(num_to_check)
